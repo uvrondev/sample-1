@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Treatments — Ivory &amp; Sage Dental Studio | Demo</title>
+  <meta name="description" content="Explore 14 sample dental treatments, from preventive care to restorations, aligners and urgent visits. A fictional portfolio demonstration.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="Uvron">
+  <meta name="theme-color" content="#123F3B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Treatments — Ivory &amp; Sage Dental Studio">
+  <meta property="og:description" content="Fourteen sample treatments for a fictional dental studio concept in Bengaluru.">
+  <meta property="og:image" content="assets/images/care-close.jpg">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/animations.js"></script>
+</head>
+<body data-page="treatments">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <p class="utility-note"><span class="status-dot" aria-hidden="true"></span>Fictional studio concept</p>
+      <p class="utility-hours">Monday–Saturday · 9:00 AM–7:00 PM <span>By appointment — sample schedule</span></p>
+      <a href="tel:+910000000000">+91 00000 00000</a>
+    </div>
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ivory &amp; Sage Dental Studio — home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <path d="M24 7.5c-9.2 0-14.8 6.1-14.8 14 0 4.5 2.4 8.4 3.9 12.4 1.2 3.2 1.4 8.3 3.8 8.3 2.6 0 2.4-6.9 7.1-6.9s4.5 6.9 7.1 6.9c2.4 0 2.6-5.1 3.8-8.3 1.5-4 3.9-7.9 3.9-12.4 0-7.9-5.6-14-14.8-14Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <circle cx="36.5" cy="9.5" r="2" fill="currentColor" stroke="none" opacity=".5"/>
+        </svg>
+        <span class="brand-copy">
+          <span class="brand-name">Ivory <em>&amp;</em> Sage</span>
+          <span class="brand-sub">Dental Studio</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="treatments.html" aria-current="page">Treatments</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="patient-stories.html">Patient stories</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-aside">
+          <a class="btn btn--primary" href="contact.html#appointment">Book a visit
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+          <div class="nav-mobile-aside__contact">
+            <span>Sample contact</span>
+            <a href="tel:+910000000000">+91 00000 00000</a>
+            <a href="mailto:hello@ivorysage.example">hello@ivorysage.example</a>
+            <span>Monday–Saturday, 9:00 AM–7:00 PM</span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+910000000000">
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-phone"></use></svg>
+          <span>+91 00000 00000</span>
+        </a>
+        <a class="btn btn--primary header-cta" href="contact.html#appointment">
+          <span class="cta-full">Book a visit</span><span class="cta-short">Book</span>
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu" data-nav-toggle>
+          <span class="nav-toggle__lines" aria-hidden="true"><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero treatments-hero" aria-labelledby="treatments-title">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Treatments</span>
+        </nav>
+        <div class="page-hero-grid">
+          <div>
+            <p class="eyebrow" data-reveal>Treatments</p>
+            <h1 id="treatments-title" data-reveal>Everyday dentistry, thoughtfully <em>explained.</em></h1>
+            <p class="lead" data-reveal>Fourteen sample treatments, gathered under one fictional roof. Most plans begin with an examination and a conversation — not a decision made in advance.</p>
+          </div>
+          <aside class="treatments-hero__note" aria-label="Important demo note" data-reveal>
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-leaf"></use></svg>
+            <p><strong>Sample information only</strong>Treatment suitability, timelines and costs would be discussed at an in-person consultation. Nothing here is medical advice.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="all-treatments-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>The list</p>
+            <h2 id="all-treatments-title" data-reveal>Find a starting point.</h2>
+          </div>
+          <div class="section-head__aside">
+            <p data-reveal>Filter by the kind of care you are curious about, then book a sample consultation. No diagnosis is made on this website.</p>
+            <span class="sample-label">14 sample treatments</span>
+          </div>
+        </div>
+
+        <div class="filter-bar" role="group" aria-label="Filter treatments by category">
+          <span class="filter-label">Filter</span>
+          <button class="filter-btn" type="button" data-treatment-filter="all" aria-pressed="true">All treatments</button>
+          <button class="filter-btn" type="button" data-treatment-filter="preventive" aria-pressed="false">Everyday care</button>
+          <button class="filter-btn" type="button" data-treatment-filter="restorative" aria-pressed="false">Restorative</button>
+          <button class="filter-btn" type="button" data-treatment-filter="cosmetic" aria-pressed="false">Cosmetic</button>
+          <button class="filter-btn" type="button" data-treatment-filter="orthodontic" aria-pressed="false">Orthodontics</button>
+          <button class="filter-btn" type="button" data-treatment-filter="pediatric" aria-pressed="false">Children</button>
+          <button class="filter-btn" type="button" data-treatment-filter="urgent" aria-pressed="false">Urgent</button>
+          <p class="filter-status" id="treatment-status" role="status" aria-live="polite">14 treatments in the full list</p>
+        </div>
+
+        <div class="treatments-grid" id="treatment-list">
+          <article class="treatment-card" id="general-consultation" data-treatment-card data-category="preventive">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-chat"></use></svg></span>
+              <span class="treatment-card__no">01</span>
+            </div>
+            <p class="treatment-card__category">Everyday care</p>
+            <h3>General consultation</h3>
+            <p>A first conversation about your teeth, gums and goals, with an examination and a plain-language summary of what was found.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> A sample first visit is imagined as 45 minutes, with time to ask questions before any plan is agreed.</p>
+            <a class="link-arrow" href="contact.html?service=general-consultation#appointment">Book a consultation
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="preventive-care" data-treatment-card data-category="preventive">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-shield"></use></svg></span>
+              <span class="treatment-card__no">02</span>
+            </div>
+            <p class="treatment-card__category">Everyday care</p>
+            <h3>Preventive care &amp; hygiene</h3>
+            <p>Routine cleaning, polishing and practical prevention guidance, paced around your comfort and current oral health.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> The focus is on keeping small problems small, with home-care advice you can realistically follow.</p>
+            <a class="link-arrow" href="contact.html?service=preventive-care#appointment">Book a hygiene visit
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="fillings" data-treatment-card data-category="restorative">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-tooth"></use></svg></span>
+              <span class="treatment-card__no">03</span>
+            </div>
+            <p class="treatment-card__category">Restorative care</p>
+            <h3>Tooth-coloured fillings</h3>
+            <p>Care for small cavities and worn edges using a tooth-coloured restoration, with the process and aftercare explained first.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> The right material depends on the tooth and the size of the repair. That is assessed in person.</p>
+            <a class="link-arrow" href="contact.html?service=fillings#appointment">Ask about fillings
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="root-canal" data-treatment-card data-category="restorative urgent">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-root"></use></svg></span>
+              <span class="treatment-card__no">04</span>
+            </div>
+            <p class="treatment-card__category">Restorative care</p>
+            <h3>Root canal treatment</h3>
+            <p>Treatment for an inflamed or infected tooth, planned around diagnosis, comfort and a clear follow-up pathway.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Not every tooth needs this treatment. The sample process begins with imaging and a conversation about options.</p>
+            <a class="link-arrow" href="contact.html?service=root-canal#appointment">Book a consultation
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="crowns-bridges" data-treatment-card data-category="restorative">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-crown"></use></svg></span>
+              <span class="treatment-card__no">05</span>
+            </div>
+            <p class="treatment-card__category">Restorative care</p>
+            <h3>Crowns &amp; bridges</h3>
+            <p>A made-to-measure restoration to protect a tooth or replace a gap, planned from a digital scan and a discussed shade match.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Sample timelines vary by case. Temporary restorations and review visits are part of the imagined plan.</p>
+            <a class="link-arrow" href="contact.html?service=crowns-bridges#appointment">Discuss a crown or bridge
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="implants" data-treatment-card data-category="restorative">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-implant"></use></svg></span>
+              <span class="treatment-card__no">06</span>
+            </div>
+            <p class="treatment-card__category">Restorative care</p>
+            <h3>Dental implants</h3>
+            <p>A planning-led option for replacing a missing tooth, assessed case by case with imaging and a clear timeline.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Suitability depends on bone, gum health and general health. The demo makes no promises about outcomes.</p>
+            <a class="link-arrow" href="contact.html?service=implants#appointment">Ask about implants
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="extractions" data-treatment-card data-category="restorative urgent">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-extraction"></use></svg></span>
+              <span class="treatment-card__no">07</span>
+            </div>
+            <p class="treatment-card__category">Restorative &amp; urgent</p>
+            <h3>Tooth extractions</h3>
+            <p>When a tooth cannot be kept, a considered removal with aftercare and replacement options discussed beforehand.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Keeping a tooth is usually the first question. Removal is discussed only when it is the more reasonable option.</p>
+            <a class="link-arrow" href="contact.html?service=extractions#appointment">Book a consultation
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="braces-aligners" data-treatment-card data-category="orthodontic">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-aligner"></use></svg></span>
+              <span class="treatment-card__no">08</span>
+            </div>
+            <p class="treatment-card__category">Orthodontics</p>
+            <h3>Braces &amp; clear aligners</h3>
+            <p>A measured approach to straighter teeth, with suitability, timelines and retainers explained before treatment starts.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Aligners are not right for every bite. The sample consultation compares options rather than pushing one.</p>
+            <a class="link-arrow" href="contact.html?service=braces-aligners#appointment">Book an orthodontic chat
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="whitening" data-treatment-card data-category="cosmetic">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-whitening"></use></svg></span>
+              <span class="treatment-card__no">09</span>
+            </div>
+            <p class="treatment-card__category">Cosmetic care</p>
+            <h3>Professional teeth whitening</h3>
+            <p>In-studio or take-home whitening with a shade review, sensitivity guidance and realistic expectations.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Results vary. The fictional studio would never promise a specific shade or a pain-free experience.</p>
+            <a class="link-arrow" href="contact.html?service=whitening#appointment">Ask about whitening
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="veneers" data-treatment-card data-category="cosmetic">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-sparkle"></use></svg></span>
+              <span class="treatment-card__no">10</span>
+            </div>
+            <p class="treatment-card__category">Cosmetic care</p>
+            <h3>Veneers &amp; smile design</h3>
+            <p>A conservative, planning-led conversation about shape, shade and proportion — not a one-size-fits-all smile.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Tooth structure is precious. The demo emphasises restraint, consent and a clear understanding of trade-offs.</p>
+            <a class="link-arrow" href="contact.html?service=veneers#appointment">Book a smile consultation
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="gum-care" data-treatment-card data-category="preventive restorative">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-gum"></use></svg></span>
+              <span class="treatment-card__no">11</span>
+            </div>
+            <p class="treatment-card__category">Everyday &amp; restorative</p>
+            <h3>Gum care</h3>
+            <p>Support for bleeding gums, gum disease and maintenance, with a plan reviewed at each visit.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> Gum health is part of every examination, not a separate add-on. Home care matters as much as the visit.</p>
+            <a class="link-arrow" href="contact.html?service=gum-care#appointment">Ask about gum care
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="pediatric" data-treatment-card data-category="pediatric preventive">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-child"></use></svg></span>
+              <span class="treatment-card__no">12</span>
+            </div>
+            <p class="treatment-card__category">Children’s care</p>
+            <h3>Children’s dentistry</h3>
+            <p>A gentle introduction to dental care for children, with visits paced around your child and parent or guardian.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> The first visit can be a look and a chat. The sample approach avoids rushing a child who needs more time.</p>
+            <a class="link-arrow" href="contact.html?service=pediatric#appointment">Book a children’s visit
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="emergency" data-treatment-card data-category="urgent">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-emergency"></use></svg></span>
+              <span class="treatment-card__no">13</span>
+            </div>
+            <p class="treatment-card__category">Urgent care</p>
+            <h3>Emergency dental care</h3>
+            <p>Sample same-week slots for pain, swelling or a broken tooth. Call the sample number for telephone guidance.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> This is a demo website. For real urgent symptoms, contact a local emergency service or a qualified dentist.</p>
+            <a class="link-arrow" href="contact.html?service=emergency#appointment">Request an urgent slot
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="treatment-card" id="dentures" data-treatment-card data-category="restorative">
+            <div class="treatment-card__top">
+              <span class="treatment-card__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-denture"></use></svg></span>
+              <span class="treatment-card__no">14</span>
+            </div>
+            <p class="treatment-card__category">Restorative care</p>
+            <h3>Dentures</h3>
+            <p>Removable tooth replacement planned for comfort, fit and everyday function, with review visits included in the sample plan.</p>
+            <p class="treatment-card__note"><strong>Good to know</strong> There are several denture options. The imagined conversation starts with function, comfort and budget.</p>
+            <a class="link-arrow" href="contact.html?service=dentures#appointment">Discuss dentures
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+        </div>
+
+        <div class="treatments-foot">
+          <div>
+            <h2>Not sure where to start?</h2>
+            <p>Choose “Not sure yet” in the sample booking form. The first appointment is designed around listening, an examination and a clear explanation of the options.</p>
+          </div>
+          <div class="treatments-foot__actions">
+            <a class="btn btn--primary" href="contact.html#appointment">Book a visit
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+            <a class="btn btn--outline" href="team.html">Meet the team</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-panel">
+          <div class="cta-media">
+            <img src="assets/images/care-close.jpg" alt="A dentist explaining a dental model to a patient in a bright treatment room" width="1500" height="1100" loading="lazy">
+          </div>
+          <div class="cta-copy">
+            <p class="eyebrow eyebrow--light">Appointments</p>
+            <h2 id="cta-title">A plan, not a pitch.</h2>
+            <p>Every treatment conversation starts with an examination and a clear explanation. The form is a front-end demonstration and does not send or store your details.</p>
+            <div class="button-row">
+              <a class="btn btn--light" href="contact.html#appointment">Book a visit
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+              </a>
+              <a class="btn btn--outline-light" href="contact.html">Contact the studio</a>
+            </div>
+            <p class="cta-meta">
+              <span><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-clock"></use></svg>Monday–Saturday, 9:00 AM–7:00 PM</span>
+              <span><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-calendar"></use></svg>By appointment — sample schedule</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="Ivory &amp; Sage Dental Studio — home">
+            <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M24 7.5c-9.2 0-14.8 6.1-14.8 14 0 4.5 2.4 8.4 3.9 12.4 1.2 3.2 1.4 8.3 3.8 8.3 2.6 0 2.4-6.9 7.1-6.9s4.5 6.9 7.1 6.9c2.4 0 2.6-5.1 3.8-8.3 1.5-4 3.9-7.9 3.9-12.4 0-7.9-5.6-14-14.8-14Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+              <circle cx="36.5" cy="9.5" r="2" fill="currentColor" stroke="none" opacity=".5"/>
+            </svg>
+            <span class="brand-copy">
+              <span class="brand-name">Ivory <em>&amp;</em> Sage</span>
+              <span class="brand-sub">Dental Studio</span>
+            </span>
+          </a>
+          <p>A fictional dental studio concept for Bengaluru, made as a portfolio demonstration by Uvron.</p>
+          <span class="sample-label">Demo concept</span>
+        </div>
+
+        <nav class="footer-col" aria-label="Footer navigation">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the studio</a></li>
+            <li><a href="treatments.html">Treatments</a></li>
+            <li><a href="team.html">The team</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="patient-stories.html">Patient stories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h2>Visit the studio</h2>
+          <address>
+            <span>Example Street, Bengaluru,<br>Karnataka — Demo Address</span>
+            <span>Monday–Saturday, 9:00 AM–7:00 PM</span>
+            <span>By appointment — sample schedule</span>
+          </address>
+        </div>
+
+        <div class="footer-col">
+          <h2>Speak with us</h2>
+          <ul class="footer-contact-list">
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-phone"></use></svg>
+              <a href="tel:+910000000000">+91 00000 00000</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-mail"></use></svg>
+              <a href="mailto:hello@ivorysage.example">hello@ivorysage.example</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-pin"></use></svg>
+              <p>Example Street, Bengaluru, Karnataka — Demo Address</p>
+            </li>
+          </ul>
+          <a class="footer-hours" href="contact.html#appointment">Request a sample appointment →</a>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>Portfolio demonstration only. Clinic identity, contact details, team profiles, testimonials, and operating information are fictional sample content.</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Ivory &amp; Sage Dental Studio. A demo concept by Uvron.</p>
+        <nav aria-label="Legal and utility">
+          <a href="privacy-policy.html">Privacy information</a>
+          <a class="footer-top-link" href="#main">Back to top
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

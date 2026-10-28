@@ -1,0 +1,16 @@
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor caches
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary / test artifacts
+*.tmp
+*.log
+_test*.html
+_shot*.html

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact &amp; appointments — Ivory &amp; Sage Dental Studio | Demo</title>
+  <meta name="description" content="Sample contact details and a front-end appointment request form for the fictional Ivory &amp; Sage dental studio concept.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="Uvron">
+  <meta name="theme-color" content="#123F3B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact &amp; appointments — Ivory &amp; Sage Dental Studio">
+  <meta property="og:description" content="A sample appointment request form for a fictional dental studio. No data is sent or stored.">
+  <meta property="og:image" content="assets/images/cta-patient.jpg">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/animations.js"></script>
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <p class="utility-note"><span class="status-dot" aria-hidden="true"></span>Fictional studio concept</p>
+      <p class="utility-hours">Monday–Saturday · 9:00 AM–7:00 PM <span>By appointment — sample schedule</span></p>
+      <a href="tel:+910000000000">+91 00000 00000</a>
+    </div>
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ivory &amp; Sage Dental Studio — home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <path d="M24 7.5c-9.2 0-14.8 6.1-14.8 14 0 4.5 2.4 8.4 3.9 12.4 1.2 3.2 1.4 8.3 3.8 8.3 2.6 0 2.4-6.9 7.1-6.9s4.5 6.9 7.1 6.9c2.4 0 2.6-5.1 3.8-8.3 1.5-4 3.9-7.9 3.9-12.4 0-7.9-5.6-14-14.8-14Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <circle cx="36.5" cy="9.5" r="2" fill="currentColor" stroke="none" opacity=".5"/>
+        </svg>
+        <span class="brand-copy">
+          <span class="brand-name">Ivory <em>&amp;</em> Sage</span>
+          <span class="brand-sub">Dental Studio</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="treatments.html">Treatments</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="patient-stories.html">Patient stories</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-aside">
+          <a class="btn btn--primary" href="contact.html#appointment">Book a visit
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+          <div class="nav-mobile-aside__contact">
+            <span>Sample contact</span>
+            <a href="tel:+910000000000">+91 00000 00000</a>
+            <a href="mailto:hello@ivorysage.example">hello@ivorysage.example</a>
+            <span>Monday–Saturday, 9:00 AM–7:00 PM</span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+910000000000">
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-phone"></use></svg>
+          <span>+91 00000 00000</span>
+        </a>
+        <a class="btn btn--primary header-cta" href="contact.html#appointment">
+          <span class="cta-full">Book a visit</span><span class="cta-short">Book</span>
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu" data-nav-toggle>
+          <span class="nav-toggle__lines" aria-hidden="true"><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="contact-title">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">Contact</span>
+        </nav>
+        <div class="page-hero-grid">
+          <div>
+            <p class="eyebrow" data-reveal>Contact &amp; appointments</p>
+            <h1 id="contact-title" data-reveal>Let’s start with a <em>conversation.</em></h1>
+            <p class="lead" data-reveal>Ask a question, request a sample appointment, or find the fictional studio. Every detail on this page is placeholder content for a portfolio demonstration.</p>
+          </div>
+          <div class="page-hero__aside" data-reveal>
+            <span class="sample-label">Demo contact details</span>
+            <p>The email, phone number and address are fictional placeholders. Do not use them for real appointments or urgent care.</p>
+            <div class="page-hero__meta">
+              <a class="btn btn--primary" href="#appointment">Request a sample visit
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+              </a>
+              <a class="btn btn--outline" href="privacy-policy.html">Privacy information</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-info-title">
+      <div class="container contact-layout">
+        <aside class="contact-info" aria-labelledby="contact-info-title">
+          <p class="eyebrow">The studio</p>
+          <h2 id="contact-info-title">A quiet corner of Bengaluru.</h2>
+          <p>The following details are sample placeholders. They are designed to show how contact information would be presented, not to reach a real clinic.</p>
+
+          <ul class="contact-details">
+            <li>
+              <span class="contact-details__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-pin"></use></svg></span>
+              <dl>
+                <dt>Address</dt>
+                <dd>Example Street, Bengaluru, Karnataka — Demo Address<span>Fictional location · not a real clinic</span></dd>
+              </dl>
+            </li>
+            <li>
+              <span class="contact-details__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-clock"></use></svg></span>
+              <dl>
+                <dt>Sample hours</dt>
+                <dd>Monday–Saturday, 9:00 AM–7:00 PM<span>By appointment — sample schedule</span></dd>
+              </dl>
+            </li>
+            <li>
+              <span class="contact-details__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-phone"></use></svg></span>
+              <dl>
+                <dt>Sample phone</dt>
+                <dd><a href="tel:+910000000000">+91 00000 00000</a><span>Placeholder number · no calls received</span></dd>
+              </dl>
+            </li>
+            <li>
+              <span class="contact-details__icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-mail"></use></svg></span>
+              <dl>
+                <dt>Sample email</dt>
+                <dd><a href="mailto:hello@ivorysage.example">hello@ivorysage.example</a><span>Example domain · no inbox monitored</span></dd>
+              </dl>
+            </li>
+          </ul>
+
+          <div class="contact-demo-note">
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-leaf"></use></svg>
+            <p>This is a portfolio demo. The form is front-end only and does not send, store or transmit anything you type.</p>
+          </div>
+
+          <div class="contact-aside-links">
+            <a href="treatments.html">Explore the 14 sample treatments
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+            <a href="team.html">Meet the fictional team
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+            <a href="patient-stories.html">Read illustrative patient notes
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </div>
+        </aside>
+
+        <div class="appointment-panel" id="appointment">
+          <div class="appointment-panel__head">
+            <p class="eyebrow">Appointment request</p>
+            <h2>Request a sample visit.</h2>
+            <p>Choose a treatment or “Not sure yet”. The form will validate your details and show a demonstration confirmation — nothing is submitted anywhere.</p>
+          </div>
+
+          <form class="appointment-form" id="appointment-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="full-name">Full name</label>
+                <input id="full-name" name="name" type="text" autocomplete="name" maxlength="80" required aria-describedby="full-name-error">
+                <p class="field__error" id="full-name-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" autocomplete="email" maxlength="120" required aria-describedby="email-error">
+                <p class="field__error" id="email-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="phone">Phone <span class="field__optional">Optional</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="30" aria-describedby="phone-hint phone-error">
+                <span class="field__hint" id="phone-hint">Sample format: +91 00000 00000</span>
+                <p class="field__error" id="phone-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="service">Treatment</label>
+                <div class="select-wrap">
+                  <select id="service" name="service" required aria-describedby="service-error">
+                    <option value="">Choose a treatment</option>
+                    <option value="general-consultation">General consultation</option>
+                    <option value="preventive-care">Preventive care &amp; hygiene</option>
+                    <option value="fillings">Tooth-coloured fillings</option>
+                    <option value="root-canal">Root canal treatment</option>
+                    <option value="crowns-bridges">Crowns &amp; bridges</option>
+                    <option value="implants">Dental implants</option>
+                    <option value="extractions">Tooth extractions</option>
+                    <option value="braces-aligners">Braces &amp; clear aligners</option>
+                    <option value="whitening">Professional teeth whitening</option>
+                    <option value="veneers">Veneers &amp; smile design</option>
+                    <option value="gum-care">Gum care</option>
+                    <option value="pediatric">Children’s dentistry</option>
+                    <option value="emergency">Emergency dental care</option>
+                    <option value="dentures">Dentures</option>
+                    <option value="not-sure">Not sure yet</option>
+                  </select>
+                  <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-chevron-down"></use></svg>
+                </div>
+                <p class="field__error" id="service-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="preferred-date">Preferred date</label>
+                <input id="preferred-date" name="date" type="date" required aria-describedby="preferred-date-hint preferred-date-error">
+                <span class="field__hint" id="preferred-date-hint">Sample schedule: Monday–Saturday.</span>
+                <p class="field__error" id="preferred-date-error" role="alert"></p>
+              </div>
+
+              <div class="field">
+                <label for="preferred-time">Preferred time</label>
+                <div class="select-wrap">
+                  <select id="preferred-time" name="time" required aria-describedby="preferred-time-error">
+                    <option value="">Choose a window</option>
+                    <option value="morning">Morning · 9:00 AM–12:00 PM</option>
+                    <option value="midday">Midday · 12:00–3:00 PM</option>
+                    <option value="afternoon">Afternoon · 3:00–5:00 PM</option>
+                    <option value="evening">Evening · 5:00–7:00 PM</option>
+                  </select>
+                  <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-chevron-down"></use></svg>
+                </div>
+                <p class="field__error" id="preferred-time-error" role="alert"></p>
+              </div>
+
+              <div class="field field--full">
+                <label for="message">Anything you would like us to know? <span class="field__optional">Optional</span></label>
+                <textarea id="message" name="message" rows="4" maxlength="600" placeholder="A sample note about your visit, questions or accessibility needs."></textarea>
+                <span class="field__hint">Please do not enter real medical or personal information — this is a demonstration form.</span>
+              </div>
+
+              <div class="consent-field field--full">
+                <input id="consent" name="consent" type="checkbox" required aria-describedby="consent-error">
+                <label for="consent">I understand this is a demonstration form. It does not send or store an appointment request, and no real clinic will receive it. I have read the <a href="privacy-policy.html">privacy information</a>.</label>
+                <p class="field__error" id="consent-error" role="alert"></p>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn btn--primary" type="submit">Send sample request
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+              </button>
+              <p class="form-demo-note">
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-shield"></use></svg>
+                <span>Front-end demonstration only. No data leaves your browser or is stored.</span>
+              </p>
+            </div>
+
+            <p class="form-status form-status--error" id="form-status" role="alert" tabindex="-1" hidden></p>
+
+            <div class="form-success" id="form-success" role="status" tabindex="-1" hidden>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-check-circle"></use></svg>
+              <div>
+                <p>Demo request submitted successfully. This sample website does not send or store appointment requests.</p>
+                <a class="link-arrow" href="index.html">Return to the homepage
+                  <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" aria-labelledby="visit-notes-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Before you visit</p>
+            <h2 id="visit-notes-title" data-reveal>A little context helps.</h2>
+          </div>
+          <div class="section-head__aside">
+            <p data-reveal>These are sample expectations for the fictional studio. Nothing here is clinical advice.</p>
+          </div>
+        </div>
+        <div class="values-grid" data-stagger>
+          <article class="value-card">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-clock"></use></svg></span>
+            <h3>Arrive a few minutes early</h3>
+            <p>A calm start matters. The sample schedule leaves a short buffer so the first appointment does not feel rushed.</p>
+          </article>
+          <article class="value-card">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-chat"></use></svg></span>
+            <h3>Bring your questions</h3>
+            <p>Write them down if that helps. The demo imagines time at the start of every visit for concerns and context.</p>
+          </article>
+          <article class="value-card">
+            <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-shield"></use></svg></span>
+            <h3>No pressure to decide</h3>
+            <p>You can ask for a written plan or take time to think. Consent is treated as ongoing, not a one-time signature.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="Ivory &amp; Sage Dental Studio — home">
+            <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M24 7.5c-9.2 0-14.8 6.1-14.8 14 0 4.5 2.4 8.4 3.9 12.4 1.2 3.2 1.4 8.3 3.8 8.3 2.6 0 2.4-6.9 7.1-6.9s4.5 6.9 7.1 6.9c2.4 0 2.6-5.1 3.8-8.3 1.5-4 3.9-7.9 3.9-12.4 0-7.9-5.6-14-14.8-14Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+              <circle cx="36.5" cy="9.5" r="2" fill="currentColor" stroke="none" opacity=".5"/>
+            </svg>
+            <span class="brand-copy">
+              <span class="brand-name">Ivory <em>&amp;</em> Sage</span>
+              <span class="brand-sub">Dental Studio</span>
+            </span>
+          </a>
+          <p>A fictional dental studio concept for Bengaluru, made as a portfolio demonstration by Uvron.</p>
+          <span class="sample-label">Demo concept</span>
+        </div>
+
+        <nav class="footer-col" aria-label="Footer navigation">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the studio</a></li>
+            <li><a href="treatments.html">Treatments</a></li>
+            <li><a href="team.html">The team</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="patient-stories.html">Patient stories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h2>Visit the studio</h2>
+          <address>
+            <span>Example Street, Bengaluru,<br>Karnataka — Demo Address</span>
+            <span>Monday–Saturday, 9:00 AM–7:00 PM</span>
+            <span>By appointment — sample schedule</span>
+          </address>
+        </div>
+
+        <div class="footer-col">
+          <h2>Speak with us</h2>
+          <ul class="footer-contact-list">
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-phone"></use></svg>
+              <a href="tel:+910000000000">+91 00000 00000</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-mail"></use></svg>
+              <a href="mailto:hello@ivorysage.example">hello@ivorysage.example</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-pin"></use></svg>
+              <p>Example Street, Bengaluru, Karnataka — Demo Address</p>
+            </li>
+          </ul>
+          <a class="footer-hours" href="contact.html#appointment">Request a sample appointment →</a>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>Portfolio demonstration only. Clinic identity, contact details, team profiles, testimonials, and operating information are fictional sample content.</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Ivory &amp; Sage Dental Studio. A demo concept by Uvron.</p>
+        <nav aria-label="Legal and utility">
+          <a href="privacy-policy.html">Privacy information</a>
+          <a class="footer-top-link" href="#main">Back to top
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

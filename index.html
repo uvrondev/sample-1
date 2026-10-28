@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ivory &amp; Sage Dental Studio — A calmer kind of dental care | Demo</title>
+  <meta name="description" content="A fictional dental studio concept for Bengaluru, built around calm spaces, clear conversations and considered care. Portfolio demonstration only.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="Uvron">
+  <meta name="theme-color" content="#123F3B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ivory &amp; Sage Dental Studio — A fictional dental concept">
+  <meta property="og:description" content="A calmer kind of dental care. A fictional, portfolio-only dental studio concept by Uvron.">
+  <meta property="og:image" content="assets/images/hero-care.jpg">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/animations.js"></script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="utility-bar">
+    <div class="container utility-inner">
+      <p class="utility-note"><span class="status-dot" aria-hidden="true"></span>Fictional studio concept</p>
+      <p class="utility-hours">Monday–Saturday · 9:00 AM–7:00 PM <span>By appointment — sample schedule</span></p>
+      <a href="tel:+910000000000">+91 00000 00000</a>
+    </div>
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ivory &amp; Sage Dental Studio — home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+          <path d="M24 7.5c-9.2 0-14.8 6.1-14.8 14 0 4.5 2.4 8.4 3.9 12.4 1.2 3.2 1.4 8.3 3.8 8.3 2.6 0 2.4-6.9 7.1-6.9s4.5 6.9 7.1 6.9c2.4 0 2.6-5.1 3.8-8.3 1.5-4 3.9-7.9 3.9-12.4 0-7.9-5.6-14-14.8-14Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <circle cx="36.5" cy="9.5" r="2" fill="currentColor" stroke="none" opacity=".5"/>
+        </svg>
+        <span class="brand-copy">
+          <span class="brand-name">Ivory <em>&amp;</em> Sage</span>
+          <span class="brand-sub">Dental Studio</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="treatments.html">Treatments</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="patient-stories.html">Patient stories</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-mobile-aside">
+          <a class="btn btn--primary" href="contact.html#appointment">Book a visit
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+          <div class="nav-mobile-aside__contact">
+            <span>Sample contact</span>
+            <a href="tel:+910000000000">+91 00000 00000</a>
+            <a href="mailto:hello@ivorysage.example">hello@ivorysage.example</a>
+            <span>Monday–Saturday, 9:00 AM–7:00 PM</span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-phone" href="tel:+910000000000">
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-phone"></use></svg>
+          <span>+91 00000 00000</span>
+        </a>
+        <a class="btn btn--primary header-cta" href="contact.html#appointment">
+          <span class="cta-full">Book a visit</span><span class="cta-short">Book</span>
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu" data-nav-toggle>
+          <span class="nav-toggle__lines" aria-hidden="true"><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-hero>Dental care, considered</p>
+          <h1 id="hero-title" data-hero>A calmer kind<br>of <em>dental care.</em></h1>
+          <p class="hero-lede" data-hero>Welcome to Ivory &amp; Sage — a fictional studio concept built around careful dentistry, clear conversations, and appointments that leave room for questions.</p>
+          <div class="button-row hero-actions" data-hero>
+            <a class="btn btn--primary" href="contact.html#appointment">Book a visit
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+            <a class="btn btn--outline" href="treatments.html">Explore treatments</a>
+          </div>
+          <ul class="hero-notes" data-hero>
+            <li>
+              <strong>Preventive first</strong>
+              <span>Everyday care for long-term oral health.</span>
+            </li>
+            <li>
+              <strong>Plans you can follow</strong>
+              <span>Options explained in plain language.</span>
+            </li>
+            <li>
+              <strong>One calm team</strong>
+              <span>For adults, children and first visits.</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-frame" data-hero-frame aria-hidden="true"></div>
+          <div class="hero-stage" aria-hidden="true">A fictional studio</div>
+          <figure class="hero-media media media--arch">
+            <img src="assets/images/hero-care.jpg" alt="A dentist speaking with a relaxed patient during a sample consultation" width="1600" height="1900" fetchpriority="high" data-hero-media>
+          </figure>
+          <div class="hero-float">
+            <span class="hero-float__label">New patient visit</span>
+            <strong>45 minutes</strong>
+            <p>A sample format with time to talk before anything is decided.</p>
+          </div>
+          <p class="hero-caption"><span>Studio concept 01</span><span>Bengaluru</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="discipline-band" aria-label="Areas of care">
+      <div class="container discipline-inner">
+        <p>Care under one roof</p>
+        <ul class="discipline-list">
+          <li>Preventive dentistry</li>
+          <li>Restorative care</li>
+          <li>Cosmetic dentistry</li>
+          <li>Orthodontics</li>
+          <li>Children’s dentistry</li>
+          <li>Urgent care</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="intro-title">
+      <div class="container intro-grid">
+        <div class="intro-media" data-reveal>
+          <figure class="media media--soft">
+            <img src="assets/images/about-studio.jpg" alt="A bright, calm dental treatment room with modern equipment" width="1400" height="1700" loading="lazy">
+          </figure>
+          <figure class="intro-detail">
+            <img src="assets/images/about-scan.jpg" alt="A clinician reviewing a digital dental scan on screen" width="1200" height="1400" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="intro-copy">
+          <p class="eyebrow" data-reveal>The studio</p>
+          <h2 id="intro-title" data-reveal>Dentistry that makes room for people.</h2>
+          <p data-reveal>Ivory &amp; Sage is a sample dental-studio concept for Bengaluru. The idea is simple: care should be explained before it is recommended, and every visit should feel unhurried enough to ask questions.</p>
+          <p data-reveal>The studio pairs a calm, light-filled setting with a preventive-first approach. From a routine clean to a more involved treatment plan, the aim is the same — clarity, comfort, and a considered next step.</p>
+          <ul class="check-list check-list--check" data-reveal>
+            <li>A consultation that starts with listening</li>
+            <li>Treatment options explained in plain language</li>
+            <li>A team that works with you, not around you</li>
+          </ul>
+          <a class="link-arrow" href="about.html" data-reveal>Read our approach
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+          <div class="intro-aside" data-reveal>
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-leaf"></use></svg>
+            <p><strong>A note on this demo</strong>This is a portfolio concept. The clinic, team, testimonials and contact details are fictional sample content.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Treatments</p>
+            <h2 id="services-title" data-reveal>Everyday dentistry, thoughtfully done.</h2>
+          </div>
+          <div class="section-head__aside">
+            <p data-reveal>From preventive check-ups to restorative care, the studio is designed to support whole-family oral health.</p>
+            <a class="link-arrow" href="treatments.html" data-reveal>View all 14 treatments
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="service-grid" data-stagger>
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-tooth"></use></svg></span>
+              <span class="service-no">01</span>
+            </div>
+            <h3><a href="treatments.html#general-consultation">General dentistry</a></h3>
+            <p>Consultations, check-ups and a clear view of what is happening in your mouth.</p>
+            <a class="link-arrow" href="treatments.html#general-consultation">Explore
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-shield"></use></svg></span>
+              <span class="service-no">02</span>
+            </div>
+            <h3><a href="treatments.html#preventive-care">Preventive care</a></h3>
+            <p>Cleanings, polishing and practical guidance for keeping small problems small.</p>
+            <a class="link-arrow" href="treatments.html#preventive-care">Explore
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-root"></use></svg></span>
+              <span class="service-no">03</span>
+            </div>
+            <h3><a href="treatments.html#root-canal">Root canal treatment</a></h3>
+            <p>Care for a compromised tooth, with the process and aftercare explained step by step.</p>
+            <a class="link-arrow" href="treatments.html#root-canal">Explore
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-aligner"></use></svg></span>
+              <span class="service-no">04</span>
+            </div>
+            <h3><a href="treatments.html#braces-aligners">Braces &amp; clear aligners</a></h3>
+            <p>A considered approach to straighter teeth, with options discussed at consultation.</p>
+            <a class="link-arrow" href="treatments.html#braces-aligners">Explore
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-implant"></use></svg></span>
+              <span class="service-no">05</span>
+            </div>
+            <h3><a href="treatments.html#implants">Dental implants</a></h3>
+            <p>A planning-led option for replacing a missing tooth, assessed case by case.</p>
+            <a class="link-arrow" href="treatments.html#implants">Explore
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-icon"><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-child"></use></svg></span>
+              <span class="service-no">06</span>
+            </div>
+            <h3><a href="treatments.html#pediatric">Children’s dentistry</a></h3>
+            <p>A gentle introduction to dental care, with visits paced around your child.</p>
+            <a class="link-arrow" href="treatments.html#pediatric">Explore
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark" aria-labelledby="standard-title">
+      <div class="container standards-grid">
+        <div class="standards-media" data-reveal>
+          <figure class="media media--soft">
+            <img src="assets/images/about-reception.jpg" alt="A warm, contemporary dental studio reception with wood and stone finishes" width="1600" height="1150" loading="lazy">
+          </figure>
+          <div class="standards-stamp" aria-hidden="true"><span>Calm,<br>by design.</span></div>
+          <p class="media-caption">Illustrative interior reference — not the actual studio.</p>
+        </div>
+
+        <div class="standards-copy">
+          <p class="eyebrow eyebrow--light" data-reveal>The Ivory &amp; Sage standard</p>
+          <h2 id="standard-title" data-reveal>Care that is explained, not assumed.</h2>
+          <p data-reveal>No two mouths are the same. The studio’s approach is to slow down the conversation, show what we mean, and agree on a plan together.</p>
+          <ol class="standard-list">
+            <li data-reveal>
+              <span class="standard-list__no">01</span>
+              <div>
+                <h3>Conversation first</h3>
+                <p>We start with your concerns, your history and what you want from your smile.</p>
+              </div>
+            </li>
+            <li data-reveal>
+              <span class="standard-list__no">02</span>
+              <div>
+                <h3>A plan you understand</h3>
+                <p>Options, trade-offs and likely next steps are discussed before treatment begins.</p>
+              </div>
+            </li>
+            <li data-reveal>
+              <span class="standard-list__no">03</span>
+              <div>
+                <h3>Comfort, in practice</h3>
+                <p>Small pauses, clear signals and a pace that works for you. Let us know what helps.</p>
+              </div>
+            </li>
+            <li data-reveal>
+              <span class="standard-list__no">04</span>
+              <div>
+                <h3>Continuity of care</h3>
+                <p>A consistent team and a record of your preferences, so every visit feels familiar.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" aria-labelledby="pathway-title">
+      <div class="container treatment-editorial">
+        <div class="treatment-editorial__copy">
+          <p class="eyebrow" data-reveal>Find your starting point</p>
+          <h2 id="pathway-title" data-reveal>Not sure what you need? Start with a conversation.</h2>
+          <p data-reveal>You do not need to know the name of a treatment before you visit. Most plans begin with an examination, a conversation and a clear explanation of the options.</p>
+          <ul class="pathway-list" data-stagger>
+            <li>
+              <a href="treatments.html#general-consultation">
+                <span class="pathway-list__no">01</span>
+                <span><strong>Everyday care</strong><span>Check-ups, cleaning and prevention.</span></span>
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-up-right"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a href="treatments.html#root-canal">
+                <span class="pathway-list__no">02</span>
+                <span><strong>Restoring comfort</strong><span>Fillings, root canals and crowns.</span></span>
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-up-right"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a href="treatments.html#braces-aligners">
+                <span class="pathway-list__no">03</span>
+                <span><strong>Straightening &amp; confidence</strong><span>Aligners, whitening and cosmetic care.</span></span>
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-up-right"></use></svg>
+              </a>
+            </li>
+            <li>
+              <a href="treatments.html#implants">
+                <span class="pathway-list__no">04</span>
+                <span><strong>Replacing a tooth</strong><span>Implants, bridges and dentures.</span></span>
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-up-right"></use></svg>
+              </a>
+            </li>
+          </ul>
+          <a class="link-arrow" href="treatments.html" data-reveal>See every treatment
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+        </div>
+
+        <div class="treatment-editorial__media" data-reveal>
+          <figure class="media media--soft">
+            <img src="assets/images/care-close.jpg" alt="A dentist explaining a dental model to a patient in a bright treatment room" width="1500" height="1100" loading="lazy">
+          </figure>
+          <div class="treatment-media-note">
+            <span>Our approach</span>
+            <p>A plan, not a pitch. Sample studio wording.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="team-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>The team</p>
+            <h2 id="team-title" data-reveal>People who make the visit feel easier.</h2>
+          </div>
+          <div class="section-head__aside">
+            <p data-reveal>A small, fictional team imagined around one shared belief: good care begins with a good conversation.</p>
+            <a class="link-arrow" href="team.html" data-reveal>Meet the sample team
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="team-preview-grid" data-stagger>
+          <article class="team-card">
+            <div class="team-card__media">
+              <span class="sample-tag">Sample profile</span>
+              <img src="assets/images/team-ananya.jpg" alt="Illustrative portrait of a fictional dentist in teal scrubs" width="900" height="1100" loading="lazy">
+            </div>
+            <div class="team-card__body">
+              <div>
+                <h3>Dr. Ananya Rao</h3>
+                <p class="team-card__role">Principal dentist · sample role</p>
+              </div>
+              <a class="team-card__link" href="team.html#ananya" aria-label="Read the fictional profile of Dr. Ananya Rao">
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-up-right"></use></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__media">
+              <span class="sample-tag">Sample profile</span>
+              <img src="assets/images/team-mehul.jpg" alt="Illustrative portrait of a fictional dentist in a bright treatment room" width="900" height="1100" loading="lazy">
+            </div>
+            <div class="team-card__body">
+              <div>
+                <h3>Dr. Mehul Shah</h3>
+                <p class="team-card__role">Endodontics · sample role</p>
+              </div>
+              <a class="team-card__link" href="team.html#mehul" aria-label="Read the fictional profile of Dr. Mehul Shah">
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-up-right"></use></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="team-card">
+            <div class="team-card__media">
+              <span class="sample-tag">Sample profile</span>
+              <img src="assets/images/team-leela.jpg" alt="Illustrative portrait of a fictional dentist in a modern clinic" width="900" height="1100" loading="lazy">
+            </div>
+            <div class="team-card__body">
+              <div>
+                <h3>Dr. Leela Nair</h3>
+                <p class="team-card__role">Orthodontics · sample role</p>
+              </div>
+              <a class="team-card__link" href="team.html#leela" aria-label="Read the fictional profile of Dr. Leela Nair">
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-up-right"></use></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quote-section" aria-labelledby="quote-title">
+      <h2 id="quote-title" class="visually-hidden">Patient feedback</h2>
+      <div class="container quote-layout">
+        <div class="quote-aside">
+          <p class="eyebrow" data-reveal>Patient notes</p>
+          <span class="sample-label" data-reveal>Illustrative sample</span>
+          <p data-reveal>How patient feedback could be presented with context, consent and care.</p>
+          <a class="link-arrow" href="patient-stories.html" data-reveal>Read sample stories
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+        </div>
+
+        <figure class="quote-feature" data-reveal>
+          <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-quote"></use></svg>
+          <blockquote>“I came in expecting a lecture about my teeth. I left with a plan I actually understood — and a follow-up I didn’t dread.”</blockquote>
+          <figcaption><span>Fictional patient story 01</span><span>Routine care · sample</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow" data-reveal>Inside the studio</p>
+            <h2 id="gallery-title" data-reveal>A look inside the studio.</h2>
+          </div>
+          <div class="section-head__aside">
+            <p data-reveal>An illustrative collection of interiors, equipment and everyday dental care. Stock photography is used for this concept.</p>
+          </div>
+        </div>
+
+        <div class="gallery-preview" data-stagger>
+          <a href="gallery.html" aria-label="Open the studio gallery">
+            <img src="assets/images/about-reception.jpg" alt="A contemporary dental reception with warm wood finishes" width="1600" height="1150" loading="lazy">
+            <span class="gallery-preview__label">Reception</span>
+          </a>
+          <a href="gallery.html" aria-label="Open the studio gallery">
+            <img src="assets/images/gallery-tools.jpg" alt="Toothbrushes and dental care accessories beside a plant" width="1200" height="1500" loading="lazy">
+            <span class="gallery-preview__label">Details</span>
+          </a>
+          <a href="gallery.html" aria-label="Open the studio gallery">
+            <img src="assets/images/gallery-child.jpg" alt="A dentist and a young patient smiling during a sample check-up" width="1400" height="1050" loading="lazy">
+            <span class="gallery-preview__label">Young patients</span>
+          </a>
+          <a href="gallery.html" aria-label="Open the studio gallery">
+            <img src="assets/images/gallery-room.jpg" alt="A treatment room with a dental chair and digital imaging screen" width="1400" height="1050" loading="lazy">
+            <span class="gallery-preview__label">Treatment room</span>
+          </a>
+          <a href="gallery.html" aria-label="Open the studio gallery">
+            <img src="assets/images/about-studio.jpg" alt="A bright dental studio with modern equipment" width="1400" height="1700" loading="lazy">
+            <span class="gallery-preview__label">The studio</span>
+          </a>
+          <a href="gallery.html" aria-label="Open the studio gallery">
+            <img src="assets/images/gallery-aligner.jpg" alt="A close-up of a clear dental aligner" width="1200" height="1350" loading="lazy">
+            <span class="gallery-preview__label">Aligners</span>
+          </a>
+        </div>
+        <div class="gallery-preview-footer">
+          <p>Photography is illustrative only and does not depict the fictional studio’s actual premises, team or patients.</p>
+          <a class="btn btn--outline btn--small" href="gallery.html">View the gallery
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-panel">
+          <div class="cta-media">
+            <img src="assets/images/cta-patient.jpg" alt="A smiling patient in a dental chair during a sample visit" width="1400" height="1600" loading="lazy">
+          </div>
+          <div class="cta-copy">
+            <p class="eyebrow eyebrow--light">Appointments</p>
+            <h2 id="cta-title">Ready when you are.</h2>
+            <p>Book a sample appointment, ask a question, or simply find the studio. The form is a front-end demonstration and does not send or store your details.</p>
+            <div class="button-row">
+              <a class="btn btn--light" href="contact.html#appointment">Book a visit
+                <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+              </a>
+              <a class="btn btn--outline-light" href="contact.html">Contact the studio</a>
+            </div>
+            <p class="cta-meta">
+              <span><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-clock"></use></svg>Monday–Saturday, 9:00 AM–7:00 PM</span>
+              <span><svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-calendar"></use></svg>By appointment — sample schedule</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html" aria-label="Ivory &amp; Sage Dental Studio — home">
+            <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <path d="M24 7.5c-9.2 0-14.8 6.1-14.8 14 0 4.5 2.4 8.4 3.9 12.4 1.2 3.2 1.4 8.3 3.8 8.3 2.6 0 2.4-6.9 7.1-6.9s4.5 6.9 7.1 6.9c2.4 0 2.6-5.1 3.8-8.3 1.5-4 3.9-7.9 3.9-12.4 0-7.9-5.6-14-14.8-14Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+              <circle cx="36.5" cy="9.5" r="2" fill="currentColor" stroke="none" opacity=".5"/>
+            </svg>
+            <span class="brand-copy">
+              <span class="brand-name">Ivory <em>&amp;</em> Sage</span>
+              <span class="brand-sub">Dental Studio</span>
+            </span>
+          </a>
+          <p>A fictional dental studio concept for Bengaluru, made as a portfolio demonstration by Uvron.</p>
+          <span class="sample-label">Demo concept</span>
+        </div>
+
+        <nav class="footer-col" aria-label="Footer navigation">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About the studio</a></li>
+            <li><a href="treatments.html">Treatments</a></li>
+            <li><a href="team.html">The team</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="patient-stories.html">Patient stories</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <h2>Visit the studio</h2>
+          <address>
+            <span>Example Street, Bengaluru,<br>Karnataka — Demo Address</span>
+            <span>Monday–Saturday, 9:00 AM–7:00 PM</span>
+            <span>By appointment — sample schedule</span>
+          </address>
+        </div>
+
+        <div class="footer-col">
+          <h2>Speak with us</h2>
+          <ul class="footer-contact-list">
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-phone"></use></svg>
+              <a href="tel:+910000000000">+91 00000 00000</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-mail"></use></svg>
+              <a href="mailto:hello@ivorysage.example">hello@ivorysage.example</a>
+            </li>
+            <li>
+              <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-pin"></use></svg>
+              <p>Example Street, Bengaluru, Karnataka — Demo Address</p>
+            </li>
+          </ul>
+          <a class="footer-hours" href="contact.html#appointment">Request a sample appointment →</a>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p>Portfolio demonstration only. Clinic identity, contact details, team profiles, testimonials, and operating information are fictional sample content.</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Ivory &amp; Sage Dental Studio. A demo concept by Uvron.</p>
+        <nav aria-label="Legal and utility">
+          <a href="privacy-policy.html">Privacy information</a>
+          <a class="footer-top-link" href="#main">Back to top
+            <svg class="icon" aria-hidden="true"><use href="assets/images/icons.svg#icon-arrow-right"></use></svg>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
